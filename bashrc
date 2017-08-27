@@ -8,8 +8,9 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 alias vim=nvim
+alias oc='rlwrap ocaml'
 
-export TERMINAL=termite
+#export TERMINAL=termite
 
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
